@@ -3,12 +3,14 @@ body{
 }
 #marco{
     margin: 0 auto;
-    align-content: center;
-    width: 400px;
+     
+    width: 405px;/*400px*/
+    /*border: red 1px solid;*/
+    align-items: center;
 }
 #titulo{
     text-align: center;
-    width: 304px;
+    width: 394px;
     border: rgba(0, 0, 0, 0.512) 1.5px solid;
     box-shadow: 5px 5px 5px 0px grey;
     background-color: rgb(179, 177, 177);
@@ -16,7 +18,7 @@ body{
 }
 #score{
     text-align: center;
-    width: 304px;
+    width: 394px;
     border: rgba(0, 0, 0, 0.512) 1.5px solid;
     box-shadow: 5px 5px 5px 0px grey;
     background-color: rgb(179, 177, 177);
@@ -24,22 +26,22 @@ body{
 .board{
     margin-top: 5px;
     border: rgba(0, 0, 0, 0.512) 1.5px solid;
-    width: 304px;
+    width: 394px;
     display: grid;
-    grid-template-columns: repeat(3,100px);
-    grid-template-rows: repeat(3,100px);
+    grid-template-columns: repeat(3,130px);
+    grid-template-rows: repeat(3,130px);
     gap: 2px;
     background-color: rgba(0, 0, 0, 0.512);
     box-shadow: 5px 5px 5px 0px grey;
 }
 .cell{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     background-color: #eeeeee;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 70px;
+    font-size: 75px;
     cursor: grab;
     color: rgba(229, 5, 5, 0.628);
     font-weight: bold;
