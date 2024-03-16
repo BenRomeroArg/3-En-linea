@@ -51,11 +51,22 @@ body{
     font-size: 23px;
     font-weight: bold;
 }
+#mensaje{
+    margin-top: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color:green;
+    text-align: center;
+    width: 394px;
+    border: rgba(0, 0, 0, 0.512) 1.5px solid;
+    box-shadow: 5px 5px 5px 0px grey;
+    background-color: rgb(179, 177, 177);
+}
 a{
     text-decoration: none;
     text-align: center;
     width: 394px;
-    border: rgba(0, 0, 0, 0.512) 2.5px solid;
+    border: rgba(0, 0, 0, 0.512) 1.5px solid;
     box-shadow: 5px 5px 5px 0px grey;
     background-color: rgb(179, 177, 177);
     font-size: 27px;
